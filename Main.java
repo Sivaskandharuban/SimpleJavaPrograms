@@ -23,7 +23,7 @@ public class Main {
         int lastLetterCount = 0;
         int bothLetter = 0;
 
-        String [] words = str.split("\\s");
+        String [] words = str.split(" ");
 
         for (int r = 0; r<words.length; r++) {
 
